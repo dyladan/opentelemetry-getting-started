@@ -4,6 +4,8 @@ This guide will walk you through the setup and configuration process for a traci
 ## Tracing Your Application with OpenTelemetry
 This guide assumes you are going to be using Zipkin as your tracing backend, but modifying it for Jaeger should be straightforward.
 
+This guide and the associated example application can be found at <https://github.com/dyladan/opentelemetry-getting-started>. For a complete working example, check out the branch named `traced` [here](https://github.com/dyladan/opentelemetry-getting-started/tree/traced).
+
 ### Setting up a Tracing Backend
 The first thing we will need before we can start collecting traces is a tracing backend like Zipkin that we can export traces to. If you already have a supported tracing backend (Zipkin or Jaeger), you can skip this step. If not, you will need to run one.
 
